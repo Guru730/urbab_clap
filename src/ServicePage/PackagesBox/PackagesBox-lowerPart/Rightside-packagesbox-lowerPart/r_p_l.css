@@ -1,0 +1,26 @@
+.right-side-rating-wrapper {
+    margin: 16px 0px 0px 0px ;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.customers-rating-number {
+    margin-bottom: 1vh;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+.rating-text{
+    color: gray;
+}
+
+

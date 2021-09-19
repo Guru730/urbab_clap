@@ -1,0 +1,61 @@
+.comment-wrapper {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+
+.comment-image-wrapper {
+    width: 20%;
+    height: 100%;
+    transform: translateY(1.5vw);
+}
+
+
+.commenter-image-name {
+    font-size: 18px;
+    color: rgb(252, 252, 252);
+    margin-left: 2vw;
+    border-radius: 10vw;
+    display: inline;
+    padding: 0.8vw 1.2vw 0.8vw   ;
+    border: none;
+}
+
+
+
+
+.comment-other-information-wrapper {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.commenter-name-wrapper{
+    height: 4vh;
+    transform: translateY(2vh);
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: 'Main-heading-font';
+}
+
+.commenter-rating-wrapper{
+    margin: 1vh 0px 3vh ;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Main-heading-font';
+    color: rgb(4, 107, 4);
+}
+
+.comment{
+    font-size: 12px;
+    color: rgb(44, 43, 43);
+    font-weight: 700;
+    font-family: 'Main-heading-font';
+}
+

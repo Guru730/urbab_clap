@@ -1,0 +1,30 @@
+
+
+
+.Modal-content{
+  width: 60vw;
+  height: 80vh;
+  padding: 4vw;
+  background-color: white;
+  position: fixed;
+  border-radius: 1vw;
+  opacity: 10;
+  z-index: 1000;
+  box-shadow: 4px 4px 12px rgb(61, 56, 56);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.Modal-question-wrapper {
+  font-size: 1.8vw;
+  margin: 2vw 0;
+}
+
+.Modal-Answer-wrapper{
+    font-size: 1.4vw;
+    margin: 2vw 0;
+}
+

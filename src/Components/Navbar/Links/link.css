@@ -1,0 +1,11 @@
+
+.link_ctn{
+    display: inline;
+    float: left;
+    margin-left: 4rem;
+}
+
+.link{
+     font-size: 1.5rem;
+     cursor: pointer;
+}

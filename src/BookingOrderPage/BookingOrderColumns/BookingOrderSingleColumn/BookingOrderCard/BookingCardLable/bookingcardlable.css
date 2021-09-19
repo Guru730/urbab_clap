@@ -1,0 +1,36 @@
+
+.trending-seller-lable{
+    padding: 5px 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    border-radius: 0.2vw;
+    left: 1%;
+    perspective: 1000px;
+    box-shadow: 1px 1px 3px rgb(70, 70, 70);
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+.best-seller-lable{
+    padding: 5px 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    border-radius: 0.2vw;
+    left: 1%;
+    perspective: 1000px;
+    box-shadow: 1px 1px 3px rgb(70, 70, 70);
+    background-color: blue;
+}
+

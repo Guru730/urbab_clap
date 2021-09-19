@@ -1,0 +1,10 @@
+.dropdown-wrapper {
+    width: 14vw;
+    height: 61vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 0.5vh;
+}
+

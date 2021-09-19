@@ -1,0 +1,11 @@
+.best-offers-column-ctn{ 
+    width: 98vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}

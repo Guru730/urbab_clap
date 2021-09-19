@@ -1,0 +1,284 @@
+.service-card-column{
+    margin-top: 20px;
+    width: 400px; 
+    border: 1px solid rgb(194, 193, 193);
+    position: relative;
+    background-color: white;
+  
+
+}
+
+
+
+.service-card-column-image-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+     
+}
+
+
+.trending-seller-lable{
+    padding: 5px 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    border-radius: 0.2vw;
+    left: 1%;
+    perspective: 1000px;
+    box-shadow: 1px 1px 3px rgb(70, 70, 70);
+    background-color: green;
+}
+
+
+
+
+
+.best-seller-lable{
+    padding: 5px 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    border-radius: 0.2vw;
+    left: 1%;
+    perspective: 1000px;
+    box-shadow: 1px 1px 3px rgb(70, 70, 70);
+    background-color: tomato;
+}
+
+
+
+.service-card-column-image{
+    width: 90%;
+    height: 130px;
+    background-color: blue;
+    margin: 10px;
+}
+
+
+.service-card-column-heading-wrapper{
+    height: 10%;
+    padding: 10px;
+    
+
+}
+
+
+.service-card-column-sub-heading-wrapper{
+    height: 10%;
+    padding: 10px;
+}
+
+
+
+
+.service-card-column-rating-wrapper{
+   display: flex;
+   height: 1.5vw;
+   justify-content: left;
+   align-items: baseline;
+   font-size: 12px;
+   font-weight: 800;
+   padding: 0 20px;
+   color: green;
+   font-family: 'Main-heading-font';
+   margin: 5px 0px;
+
+}
+
+
+.service-card-column-rating-5{
+    font-size: 10px;
+}
+
+
+
+.service-card-column-rate-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Main-heading-font';
+    font-size: 12px;
+    padding: 0px 20px;
+    color: rgb(66, 63, 63);
+}
+
+
+
+.service-card-column-cutted-rate {
+    font-size: 10px;
+    color: rgb(255, 5, 5);
+    text-decoration: line-through;
+    padding: 5px;
+}
+
+
+.service-card-column-heading-wrapper{
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Main-heading-font';
+    display: flex;
+    align-items: center;
+}
+
+
+
+.service-card-column-service-time-wrapper {
+    font-size: 10px;
+    color: rgb(83, 84, 85);
+    height: 30px;
+    width: 95%;
+    font-weight: 800;
+    font-family: 'Main-heading-font';
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(230, 230, 230);
+
+}
+
+.service-card-column-service-time-watch-symbole{
+    padding: 5px;
+}
+
+
+
+
+
+
+.service-card-column-service-facts-wrapper{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(94, 94, 94);
+    line-height: 18px;
+    letter-spacing: 1px;
+   
+}
+
+
+
+.facts{
+   display: flex;
+   flex-direction: row;
+   margin: 20px;
+  grid-gap: 5px;
+
+}
+
+
+.fact{
+    display: flex;
+    justify-content: left;
+    padding: 0;
+
+}
+
+
+
+
+
+.facts-heading {
+    font-size: 13px;
+    color: rgb(31, 30, 30);
+    font-weight: 900;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.add-order-button-wrapper {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3vw;
+    box-shadow: 1px 1px 3px gray;
+    margin-right: 5px;
+}
+
+
+.add-order-button{
+    color: white;
+    font-size: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+
+
+
+
+.add-order-button-clicked-wrapper {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+
+
+
+
+.add-order-button-clicked {
+     width: 100%;
+     height: 100%;
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     border: 1px solid blue;
+}
+
+
+
+.add-order-button-clicked-minus-symbole{
+    height: 100%;
+    width: 33%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+.add-order-button-clicked-column-symbole {
+    width: 33.3%;
+    height: 100%;
+    background-color: blue;
+
+}
+
+
+
+
+.add-order-button-clicked-plus-symbole{
+    height: 100%;
+    width: 33.3%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

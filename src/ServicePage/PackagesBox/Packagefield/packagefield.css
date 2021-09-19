@@ -1,0 +1,54 @@
+
+.package-field-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 85%;
+    height: 10vh;
+    border-radius: 1vh;
+    margin: 7px;
+    cursor: pointer;
+}
+
+
+.package-heading-wrapper {
+    width: 60%;
+    margin-left: 2vw;
+    font-size: 1vw;
+}
+
+
+
+.package-heading {
+    
+    font-family: 'Main-heading-font';
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+
+.package-field-image-wrapper {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-field-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 2vw;
+}
+
+.package-field-arrow-wrapper {
+    width: 15%;
+}
+
+.package-field-arrow {
+    font-size: 2vw;
+    margin-left: 2vw;
+    transform: translate(-50%, -50%);
+}

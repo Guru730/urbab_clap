@@ -1,0 +1,16 @@
+
+
+
+.button {
+    width: 2vw;
+    z-index: 3;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.button-link {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+

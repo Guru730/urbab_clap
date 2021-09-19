@@ -1,0 +1,31 @@
+
+
+.input-field-wrapper{
+     float: left;
+     margin-left: 0.5vw;
+     display: flex;
+     flex-direction: row;
+}
+
+.inputfield{
+    width: 42vw;
+    height: 9vh;
+    padding-left: 1vw;
+    font-size: 2.5vh;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    border: none;
+}
+
+
+.image {
+    width: 1vh;
+    height: 1vh;
+}
+
+.inputfield::placeholder{
+    font-size: 2.2vh;
+    color: rgb(233, 230, 230);
+    letter-spacing: 5px;
+    font-weight: 550;
+}

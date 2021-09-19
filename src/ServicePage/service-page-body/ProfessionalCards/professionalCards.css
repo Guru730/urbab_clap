@@ -1,0 +1,108 @@
+.professionals-rating-cards-wrappers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 4vh 0px;
+}
+
+.professionals-rating-cards-image-wrapper {
+    width: 20%;
+    height: 20%;
+
+}
+
+.professional-image {
+    width: 5vw;
+    border-radius: 10vw;
+    margin: 20px;
+}
+
+
+
+
+
+.professionals-rating-cards-information-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.professionals-name{
+    font-size: 18px;
+    font-family: 'Main-heading-font';
+    font-weight: 800;
+}
+
+
+.professionals-address{
+    font-size: 10px;
+    margin: 0 auto;
+    font-family: 'Main-heading-font';
+    word-spacing: 2px;
+    font-weight: 600;
+    color: rgb(53, 53, 53);
+    
+}
+
+
+
+
+.professionals-rating-information-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.rating-star-wrapper{
+    margin: 2vw;
+    font-size: 12px;
+    font-family: 'Main-heading-font';
+    color: rgb(5, 122, 5);
+    font-weight: 700;
+}
+
+.rating-star {
+    color: green;
+    font-size: 18px;
+}
+
+
+.rating-number-times {
+    margin: 0 2vw;
+}
+
+.number-times-rated-5-star-wrapper{
+    margin-left: 4vw;
+    margin: 2vw;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Main-heading-font';
+}
+
+
+.show-more-comment-button-wrapper {
+    margin: 3vw auto;
+
+}
+
+
+.show-more-button{
+    border-radius: 3vh;
+    color: rgb(44, 44, 44);
+    padding: 0.5vw 4vw;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Main-heading-font';
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(206, 203, 203);
+   
+}
+
+.show-more-button:hover{
+    background-color: rgb(201, 197, 197);
+    color: rgb(43, 42, 42);
+}

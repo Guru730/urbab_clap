@@ -1,0 +1,82 @@
+
+.packages-box-lower-part-wrapper {
+    margin: 40px 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+
+}
+
+
+
+.rating-star-fuck {
+    font-size: 32px;
+    color: rgb(9, 121, 56);
+}
+
+
+
+
+
+.rating {
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+
+
+
+
+.slash{
+    font-weight: 700;
+    margin: 0px 10px;
+}
+
+
+.five {
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+.rating-text-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+
+
+.rating-text {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.customers-rating-number {
+    font-size: 2vw;
+}

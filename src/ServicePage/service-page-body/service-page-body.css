@@ -1,0 +1,49 @@
+.service-page-body-wrapper {
+    margin-left: 5%;
+    margin-top: 10vh;
+
+    width: 60%;
+}
+
+
+.professionals-heading-wrapper {
+    margin-top: 50px;
+    padding: 40px 20px;
+
+    border-radius: 0.3vw 0.3vw 0px 0px2;
+    background-color: white;
+
+}
+
+
+.professionals-heading {
+    font-size: 18px;
+    font-family: 'Main-heading-font';
+    letter-spacing: 2px;
+}
+
+
+
+.professionals-sub-heading{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Main-heading-font';
+}
+
+
+
+
+
+/* creating blogs carasoul styles */
+.blogs-carasoul{
+    display: grid;
+    margin-left: 5%;
+    grid-template-columns: repeat(8, 1fr);
+
+}
+
+
+
+
+
+

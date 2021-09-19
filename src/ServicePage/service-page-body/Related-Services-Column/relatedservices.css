@@ -1,0 +1,21 @@
+.related-services-column{
+    width: 100%;
+    margin-top: 30px;
+    border-left: 1px solid rgb(241, 241, 241);
+    border-right: 1px solid #f1f1f1;
+    border-top: 1px solid  rgb(236, 236, 236);
+    background-color: white;
+    box-shadow: 1px 1px 2px rgb(206, 204, 204);
+}
+
+
+.related-services-column-heading-wrapper{
+    width: 100%;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    font-family: 'Main-heading-font';
+    border-bottom: 1px solid rgb(241, 241, 241);
+    font-weight: 800;
+}

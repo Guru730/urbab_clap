@@ -1,0 +1,76 @@
+.congrates-content-wrapper{
+    width: 60vw;
+    height: 90vh;
+    border-radius: 10px;
+    background-color: white;
+    position: fixed;
+    left: 20%;
+    top: 5%;
+
+}
+
+
+.congrates-content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+
+.congrates-text-wrapper{
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.congrates-text-congratulation{
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Main-heading-font';
+    color: blue;
+    margin: 10px auto;
+    letter-spacing: 3px;
+}
+
+
+.order-price{
+    color: red;
+}
+
+
+.congrates-text-line{
+    font-size: 20px;
+    color: rgb(95, 95, 95);
+    font-family: 'Main-heading-font' ;
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+    letter-spacing: 2px;
+
+}
+
+.congrates-img-wrapper{
+    position: relative;
+   
+}
+
+
+.congrates-img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.congrates-text-wrapper{
+    display: flex;
+    flex-direction: column;
+
+}

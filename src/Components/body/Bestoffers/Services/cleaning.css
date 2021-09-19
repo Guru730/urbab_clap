@@ -1,0 +1,40 @@
+.best-offers-column-ctn{ 
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+   
+    padding: 20px;
+}
+
+.offers-ctn{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 21rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.offers-heading-ctn{
+    margin: 10vh;
+}
+
+.offers-heading{
+    font-size: 8vh;
+    margin-bottom: 1vh;
+    font-family: 'sub-heading-fonts';
+    letter-spacing: 10px;
+    color: rgb(48, 48, 48);
+}
+
+.offers-sub-heading{
+    font-size: 4vh;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-family: 'sub-heading-fonts';
+    color: rgb(110, 106, 106);
+}

@@ -1,0 +1,44 @@
+.logo_wrapper {
+ position: absolute;
+ top: 1rem;
+ left: 1rem;
+ float: left;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: 60rem;
+}
+
+.logo {
+    width: 4rem;
+}
+
+.logo_text{
+    width: 10rem;
+}
+
+.bigger_letters_heading{
+    color: rgb(230, 173, 17);
+    font-size: 2.3rem;
+    text-decoration: underline;
+    margin-left: 1rem;
+}
+
+.smaller_letters_heading{
+    color:  rgb(230, 173, 17);
+    margin-left: 0.5rem;
+}
+
+.former_urbanclap_text{
+    color:  rgb(230, 173, 17);
+ 
+}
+
+.slash-wrapper{
+    color:  rgb(230, 173, 17);
+    margin: 0 2vw 0 2vw;
+}
+
+.slash{
+    font-size: 3rem;
+}

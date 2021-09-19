@@ -1,0 +1,84 @@
+
+/* creating styles for whole carasoul component */
+.imagecarasoul-ctn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+
+}
+
+
+/* creating styles for outer part of carasoul ctn */
+.carasoul-ctn {
+    height: 33vh;
+    width: 82vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* creating styles for images ctn part of carasoul */
+.carasoul {
+    height: 34vh;
+    display: grid;
+    grid-gap: 3vw;
+    grid-template-columns: repeat(7, 1fr);
+    background-position: left;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+
+/* creating styles for left arrow button of carasoul */
+.left-button {
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 3vw;
+    background-color:white;
+    box-shadow: 1px 1px 2px gray;
+    top: 50%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+
+
+
+
+
+/* creating styles for arrow button of carasoul */
+.right-button {
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 3vw;
+    background-color: white;
+    box-shadow: 1px 1px 2px gray;
+    top: 50%;
+    right: 6%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+
+
+

@@ -1,0 +1,50 @@
+.refer-column{
+   display: flex;
+   justify-content: center;
+
+}
+
+
+.refer-column-wrapper{
+    width: 98vw;
+    height: 65vh;
+    margin-top: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.refer-column-content{
+    position: absolute;
+    height: 70%;
+    width: 30%;
+    top: 10%;
+    left: 5%;
+    z-index: 2;
+}
+
+.main-heading {
+    font-size: 7vh;
+    font-family: 'Main-heading-font';
+}
+
+.small-heading{
+    font-size: 3vh;
+    font-family: 'sub-heading-fonts';
+    letter-spacing: 2px;
+}
+
+.small-heading-wrapper{
+    margin-bottom: 50px;
+}
+
+.side-money-image-ctn {
+    position: absolute;
+    right: 10%;
+}
+
+.money-image {
+    height: 90vh;
+    z-index: -1;
+    transform: translateY(15px);
+   
+}

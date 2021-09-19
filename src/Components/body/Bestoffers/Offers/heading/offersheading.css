@@ -1,0 +1,19 @@
+.offers-heading-ctn{
+    margin: 10vh;
+}
+
+.offers-heading{
+    font-size: 6vh;
+    margin-bottom: 1vh;
+    font-family: 'Main-heading-font';
+    letter-spacing: 5px;
+    color: rgb(48, 48, 48);
+}
+
+.offers-sub-heading{
+    font-size: 3vh;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-family: 'sub-heading-fonts';
+    color: rgb(110, 106, 106);
+}

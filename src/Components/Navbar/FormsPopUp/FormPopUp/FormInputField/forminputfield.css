@@ -1,0 +1,50 @@
+.form-input-field-ctn{
+    margin: 10px;
+}
+
+
+
+
+
+.form-input-field-wrapper{
+    width: 12vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    border-bottom: 1px solid gray;
+    margin: 10px 0px;
+}
+
+
+
+.form-input-field{
+    width: 100%;
+    height: 3.5vh;
+    border-radius: 8px;
+    border: none;
+    font-size: 11px;
+    font-weight: 700;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-modal-input-fields-wrapper{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

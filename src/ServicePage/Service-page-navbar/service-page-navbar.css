@@ -1,0 +1,51 @@
+.service-page-navbar-wrapper {
+    height: 8vh;
+    width: 100%;
+    position: sticky;
+
+}
+
+
+.service-page-navbar-links-wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 5px  rgb(204, 201, 201);
+    height: 10vh;
+    width: 60%;
+    left: 5%;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Main-heading-font';
+
+}
+
+.service-page-navbar-link {
+    font-size: 2.5vh;
+    height: 8vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 5px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.service-page-navbar-link:hover {
+   border-bottom: 2px solid black;
+}
+
+
+
+
+.service-page-navbar-arrow {
+    font-size: 1.5vw;
+    cursor: pointer;
+}

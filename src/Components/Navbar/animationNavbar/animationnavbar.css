@@ -1,0 +1,117 @@
+.nav {
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    animation-name: MoveDown;
+    animation-duration: 150ms;
+    box-shadow: 0 3px 6px gray;
+}
+
+
+
+
+/* Creating anition for showing navbar */
+
+@keyframes MoveDown{
+
+    0% {
+     
+        height: 0;
+        width: 100%;
+        background-color: white;
+
+    }
+
+    100% {
+        transform: translateY(0);
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+    }
+}
+
+
+
+
+
+
+
+
+/* creating styles for removing navbar */
+
+.remove-nav {
+   position: fixed;
+   z-index: 100;
+   top: 0;
+   animation-name: MoveUp;
+   animation-duration: 150ms;
+}
+
+
+
+
+
+/* creating navbar removal animation */
+
+@keyframes MoveUp {
+    0% {
+        transform: translateY(0);
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+    }
+
+    100% {
+        transform: translateY(-10vh);
+        height: 0px;
+        width: 100%;
+        background-color: white;
+    }
+}
+
+
+
+
+
+
+
+/* creating styliing for image links wrapper*/
+
+.scroll-navbar-images-links-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 50%;
+    float: right;
+
+}
+
+
+
+.scroll-navbar-number-wrapper{
+    width: 8vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.scroll-navbar-number {
+    font-size: 1.2vw;
+    font-weight: 900;
+    width: 3vw;
+    height: 3vw;
+    color: white;
+    padding: 15px;
+    background-color: rgb(23, 100, 243);
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+
+.header-content-container{
+    width: 60vw;
+    height: 30vh;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    
+}
+
+
+.heading-ctn{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-size: 2.5rem;
+color: white;
+font-family: 'Main-heading-font';
+}
+
+
+.input-field-ctn{
+    margin-top: 6vh;
+    
+}
+
+.dropdown-menu-ctn{
+    position: absolute;
+    top: 96%;
+    left: 3%;
+}
+
+
+
+

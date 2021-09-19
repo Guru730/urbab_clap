@@ -1,0 +1,9 @@
+
+.cityinputbutton{
+    height: 10vh;
+    width: 12vw;
+    background-color: rgb(238, 109, 16);
+    float: left;
+    border-radius: 0.2vw;
+    margin-right: 0.5vw;
+}

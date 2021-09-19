@@ -1,0 +1,39 @@
+
+
+.image {
+    width: 18vw;
+    height: 23vh;
+    border-radius: 0.5vh;
+    box-shadow: 1px 1px 2px gray;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.text {
+    font-size: 1.2vw;
+    color: black;
+
+}
+
+.text-wrapper {
+    width: 16vw;
+    margin: 0 auto;
+}
+
+
+.carasoul-image-ctn {
+    padding: 1vw;
+    box-shadow: 1px 2px 4px rgb(199, 199, 199);
+}
+
+
+.carasoul-image-ctn:hover{
+    box-shadow: 3px 5px 7px rgb(184, 182, 182);
+}
+
+

@@ -1,0 +1,39 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face{
+    font-family: 'sub-heading-fonts';
+    src: url(./assets/OpenSansCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: 'signature-font';
+    src: url(./assets/Arizonia-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Main-heading-font';
+    src: url(./assets/HammersmithOne-Regular.ttf);
+}
+
+
+@font-face{
+    font-family: 'Menu-font';
+    src: url(./assets/Lora-VariableFont_wght.ttf);
+}
+
+.app_ctn{
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+}
+
+

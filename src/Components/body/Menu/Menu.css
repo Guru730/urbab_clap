@@ -1,0 +1,19 @@
+.Menu-wrapper{
+    height: 50vh;
+    width: 71.5vw;
+    background-color:white;
+    display: grid;
+    grid-template-columns: repeat(6, 11vw);
+    grid-template-rows: 130px 120px;
+    grid-gap: 0.5vw;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-70px);
+    padding: 20px;
+    border-radius: 1vh;
+    font-family: 'Main-heading-font';
+    font-size: 1vh;
+    box-shadow: 1px 1px 4px rgb(223, 221, 221);
+    z-index: -1;
+}

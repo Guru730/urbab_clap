@@ -1,0 +1,16 @@
+.footer-top-wrapper{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 5%;
+    background-color: black;
+    width: 80%;
+    height: 20%;
+    border-bottom: 1px solid white ;
+}
+
+
+.links-ctn{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}

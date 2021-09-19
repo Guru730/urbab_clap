@@ -1,0 +1,50 @@
+
+
+
+.background-image {
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+}
+
+
+.service-page-header-content-ctn{
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(10, 9, 9, 0.384);
+}
+
+
+
+.service-page-content {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+
+@font-face {
+    font-family: 'Main-heading-font';
+    src: url(../../assets//HammersmithOne-Regular.ttf);
+}
+
+.service-page-heading {
+font-size: 7vh;
+font-family: 'Main-heading-font';
+letter-spacing: 3px;
+margin-bottom: 50px;
+color: white;
+}
+
+
+
+.service-page-sub-heading {
+    font-size: 2.8vh;
+    font-family: 'Main-heading-font';
+    letter-spacing: 1px;
+    color: white;
+    margin: 2vh 10vh;
+
+}

@@ -1,0 +1,50 @@
+
+
+
+.offers-headline{
+    width: 400px;
+    height: 100px;
+    border-radius: 0.1vw;
+    display: grid;
+    background-image: linear-gradient(to right, #0acffe 0%, #0018f1 100%);
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px 5px auto;
+    font-family: 'Main-heading-font';
+}
+
+
+.offers-headline-symbole-wrapper{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+
+}
+
+
+.offers-headline-text-wrapper{
+    width: 300px;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 18px;
+}
+
+.offers-headline-text-line-one{
+    font-size: 15px;
+    font-weight: 800;
+    margin: 10px;
+
+}
+
+
+.offers-headline-text-line-two{
+    font-size: 10px;
+    font-weight: 500;
+}

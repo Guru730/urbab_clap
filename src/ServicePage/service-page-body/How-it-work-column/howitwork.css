@@ -1,0 +1,26 @@
+.how-it-work-column-wrapper {
+    padding-bottom: 1vw;
+    border-radius: 0.3vw;
+    background-color: white;
+}
+
+
+
+.how-it-work-column-heading-wrapper {
+    height: 8vw;
+    padding: 4vh 0px;
+    font-size: 3vw;
+    border-bottom: 1px solid rgb(219, 216, 216);
+    font-family: 'Main-heading-font';
+}
+
+
+.how-it-work-column-heading {
+    font-size: 5vh;
+    margin: 5vh;
+}
+
+
+.how-it-work-text-field {
+    margin: 20px 0px;
+}

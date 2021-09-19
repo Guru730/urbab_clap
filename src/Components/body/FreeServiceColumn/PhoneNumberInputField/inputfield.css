@@ -1,0 +1,15 @@
+
+
+
+.inputfield-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 32vw;
+    border: 1px solid rgb(214, 206, 206) ;
+    border-radius: 1vw;
+    box-shadow: 1px 1px 2px rgb(168, 168, 168);
+}
+
+

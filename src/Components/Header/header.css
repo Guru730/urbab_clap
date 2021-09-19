@@ -1,0 +1,26 @@
+
+
+
+.background_image_wrapper {
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 3, 0.452), rgba(5, 4, 7, 0.322)),url(https://res.cloudinary.com/urbanclap/image/upload/categories/category_v2/category_151adfe0.jpeg);
+    background-position: top;
+    background-size: cover;
+}
+
+.header-content-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+

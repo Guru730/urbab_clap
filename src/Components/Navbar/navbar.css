@@ -1,0 +1,14 @@
+
+.navbar {
+    position: relative;
+}
+
+
+
+.links_container {
+    display: flex;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    color: tomato;
+}

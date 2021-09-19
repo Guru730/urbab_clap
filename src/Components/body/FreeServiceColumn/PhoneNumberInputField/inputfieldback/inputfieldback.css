@@ -1,0 +1,5 @@
+.inputfield::placeholder {
+  font-size: 1vw;
+  color: rgb(212, 209, 209);
+  letter-spacing: 1px;
+}

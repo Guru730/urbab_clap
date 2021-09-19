@@ -1,0 +1,81 @@
+.packages-box-wrapper {
+    width: 27vw;
+    height: 80vh;
+    background: linear-gradient(rgb(16, 0, 87), rgb(255, 8, 8));
+    position: fixed;
+    right: 5%;
+    top: 13%;
+    box-shadow: 3px 5px 8px rgb(68, 65, 65);
+    border-radius: 1vh;
+}
+
+.packages-box {
+    width: 100%;
+    height: 60%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.package-box-heading-wrapper {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+
+}
+
+
+.package-box-heading {
+    font-size: 2vw;
+    font-family: 'Main-heading-font';
+    color: white;
+}
+
+
+
+.field-ctn {
+    margin: 3vh 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+.packages-box-lower-part-ctn {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 23%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
